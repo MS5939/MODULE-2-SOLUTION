@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+
+  h1 { text-align: center; font-family: Arial,sans-serif; margin-bottom: 50px; }
+
+	#All {font-family: sans-serif;float: right; }
+
+	
+	#CH { float: left; border:2px solid black; background-color: gray; box-shadow: 6px 7px lightgray;}
+
+
+	#PA { float: left;border:2px solid black; background-color: gray; box-shadow: 6px 7px lightgray;}
+	
+
+	#SU { float: left;border:2px solid black; background-color: gray; box-shadow: 6px 7px lightgray;}
+
+
+	#C { margin-top: 0px; background-color: pink; width: 50%; float: right; text-align: right; border-bottom:2px solid black;
+	border-right: 0.5px solid black; border-left: 2px solid black; padding: 5px; padding-right: 25px;}
+	
+	#P { margin-top: 0px; background-color: red; width: 40%; float: right;  text-align: right; border-bottom:2px solid black;
+	border-right: 0.5px solid black; border-left: 2px solid black; padding: 5px; padding-right: 35px; color: white;}
+	
+
+	#S { margin-top: 0px; background-color: green; width: 50%; float: right; text-align: right; border-bottom:2px solid black;
+	border-right: 0.5px solid black; border-left: 2px solid black; padding: 5px; padding-right: 35px; color : white;}
+
+
+@media (min-width: 992px){
+ 
+ #All { margin:57px;}	
+
+ #CH { margin-right: 10px; height: 200px; width: 31%; float: left;}
+ 
+ #PA  {margin-right: 10px; height: 200px; width:31%; float: left;}
+ 
+ #SU {margin-right: 10px;height: 200px;width:31%;float: left;}
+ 
+ #content{padding-top:60px;font-size: 100%;text-align: center;}
+ 
+ }
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+ #All { margin:20px; padding-left: 30px;}	
+
+ #CH { margin-right: 10px; height: 200px; width: 45%; float: left;}
+
+ #PA { height: 200px; width:45%; float: left;}
+
+ #SU { margin-top:15px; height: 200px; width:92%; float: left;}
+
+
+ #C {margin-top: 0px; float: right; width: 40%; text-align: right; padding:5px; padding-right: 35px;}
+
+ #P {margin-top: 0px; float: right; width: 40%; text-align: right; padding: 5px; padding-right: 35px;}
+
+ #S {margin-top: 0px; float: right; width: 20%; text-align: right; padding: 5px; padding-right: 35px;}
+
+ #content{padding-top: 45px;text-align: center; }
+
+}
+
+@media (max-width: 767px){
+
+ #All { margin:30px; padding-left:5px;}	
+
+ #CH { margin-bottom: 10px; height: 200px; width:100%;}
+
+ #PA { margin-bottom:10px; height: 200px; width:100%;}
+
+ #SU { height: 200px; width:100%;}
+
+ #C { margin-top: 0px; width: 53%; float: right; text-align: right; padding:5px; padding-right: 35px;}
+
+ #P { margin-top: 0px; float: right; width: 40%; text-align: right; padding: 5px; padding-right: 35px;}
+
+ #S { margin-top: 0px; float: right; width: 40%; text-align: right; padding: 5px; padding-right: 35px;}
+
+ #content{ padding-top: 45px; text-align: center;}
+
+
+}
